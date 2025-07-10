@@ -1,0 +1,88 @@
+import type { Program } from './types';
+
+export const programs: Program[] = [
+  {
+    id: 'full-stack-odyssey',
+    title: 'Full-Stack Odyssey',
+    category: 'Web Development',
+    duration: '12 Weeks',
+    startDate: new Date('2024-09-01'),
+    description: 'Master front-end and back-end technologies to build complete web applications from scratch. A comprehensive journey into modern web development.',
+    instructor: {
+      name: 'Dr. Evelyn Reed',
+      bio: 'A seasoned software architect with over 15 years of experience building scalable systems for tech giants. Passionate about mentoring the next generation of developers.',
+      avatarUrl: 'https://placehold.co/100x100.png',
+    },
+    curriculum: [
+      { module: 1, title: 'HTML, CSS, & Responsive Design', content: 'Fundamentals of web structure and styling.' },
+      { module: 2, title: 'JavaScript & The DOM', content: 'Core programming concepts and browser manipulation.' },
+      { module: 3, title: 'React & State Management', content: 'Building interactive UIs with React.' },
+      { module: 4, title: 'Node.js & Express', content: 'Creating robust server-side applications.' },
+      { module: 5, title: 'Databases & ORMs', content: 'Working with SQL and NoSQL databases.' },
+      { module: 6, title: 'Deployment & DevOps', content: 'Shipping your application to the world.' },
+    ],
+  },
+  {
+    id: 'data-driven-decisions',
+    title: 'Data-Driven Decisions',
+    category: 'Data Science',
+    duration: '16 Weeks',
+    startDate: new Date('2024-09-15'),
+    description: 'Unlock the power of data. Learn Python, statistical analysis, and machine learning to extract meaningful insights and predict future trends.',
+    instructor: {
+      name: 'Leo Chen',
+      bio: 'PhD in Statistics with a focus on machine learning applications in finance. Published researcher and a data enthusiast.',
+      avatarUrl: 'https://placehold.co/100x100.png',
+    },
+    curriculum: [
+      { module: 1, title: 'Python for Data Science', content: 'Mastering Pandas, NumPy, and Matplotlib.' },
+      { module: 2, title: 'Statistical Foundations', content: 'Probability, hypothesis testing, and regression.' },
+      { module: 3, title: 'Machine Learning Fundamentals', content: 'Supervised and unsupervised learning models.' },
+      { module: 4, title: 'Advanced ML & Deep Learning', content: 'Neural networks and advanced algorithms.' },
+      { module: 5, title: 'Big Data Technologies', content: 'Introduction to Spark and Hadoop.' },
+      { module: 6, title: 'Capstone Project', content: 'Solving a real-world data problem.' },
+    ],
+  },
+  {
+    id: 'pixel-perfect-interfaces',
+    title: 'Pixel-Perfect Interfaces',
+    category: 'UI/UX Design',
+    duration: '10 Weeks',
+    startDate: new Date('2024-10-01'),
+    description: 'Learn the principles of user-centered design, from research and wireframing to prototyping and usability testing. Create beautiful and intuitive digital experiences.',
+    instructor: {
+      name: 'Aisha Khan',
+      bio: 'Award-winning product designer who has led design teams at several successful startups. Advocate for accessible and ethical design.',
+      avatarUrl: 'https://placehold.co/100x100.png',
+    },
+    curriculum: [
+      { module: 1, title: 'Foundations of UX', content: 'User research and persona creation.' },
+      { module: 2, title: 'Information Architecture', content: 'Structuring and organizing content.' },
+      { module: 3, title: 'Wireframing & Prototyping', content: 'From low-fidelity sketches to interactive prototypes.' },
+      { module: 4, title: 'Visual Design & UI Principles', content: 'Typography, color theory, and layout.' },
+      { module: 5, title: 'Design Systems', content: 'Creating scalable and consistent UIs.' },
+      { module: 6, title: 'Usability Testing', content: 'Gathering feedback and iterating on designs.' },
+    ],
+  },
+  {
+    id: 'digital-fortress',
+    title: 'The Digital Fortress',
+    category: 'Cybersecurity',
+    duration: '20 Weeks',
+    startDate: new Date('2024-08-20'),
+    description: 'Become a guardian of the digital realm. This program covers network security, ethical hacking, cryptography, and incident response.',
+    instructor: {
+      name: 'Marcus Thorne',
+      bio: 'A certified ethical hacker and former cybersecurity analyst for a government agency. Expert in threat detection and mitigation.',
+      avatarUrl: 'https://placehold.co/100x100.png',
+    },
+    curriculum: [
+      { module: 1, title: 'Networking & Security Fundamentals', content: 'Understanding the OSI model and security principles.' },
+      { module: 2, title: 'Ethical Hacking & Penetration Testing', content: 'Finding and exploiting vulnerabilities responsibly.' },
+      { module: 3, title: 'Cryptography', content: 'Securing data with encryption.' },
+      { module: 4, title: 'Web Application Security', content: 'Defending against common web attacks like XSS and SQL injection.' },
+      { module: 5, title: 'Incident Response & Forensics', content: 'Managing security breaches and analyzing digital evidence.' },
+      { module: 6, title: 'Security Operations (SecOps)', content: 'Monitoring and defending enterprise networks.' },
+    ],
+  },
+];
